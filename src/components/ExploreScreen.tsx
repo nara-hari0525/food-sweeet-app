@@ -142,19 +142,19 @@ export const ExploreScreen: React.FC<ExploreScreenProps> = ({
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-5 pb-24">
-      {/* Header */}
+      {/* Interface Header */}
       <div className="mb-5">
         <div className="flex items-center gap-1.5 mb-1">
           <Compass className="w-4 h-4 text-[#294936]" />
           <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-[#294936]">
-            Culinary Discovery
+            Discover
           </span>
         </div>
         <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#2C241F] tracking-tight">
-          Explore Traditions & Techniques
+          Explore Recipes
         </h1>
         <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-0.5">
-          Search global culinary disciplines, regional gems, and seasonal master recipes
+          Browse by cuisine, difficulty, cooking time, and dietary preference
         </p>
       </div>
 

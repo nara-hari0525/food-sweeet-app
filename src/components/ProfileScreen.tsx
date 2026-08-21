@@ -170,6 +170,22 @@ export const ProfileScreen: React.FC<ProfileScreenProps> = ({
 
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 py-6 pb-28">
+      {/* Interface Header */}
+      <div className="mb-6">
+        <div className="flex items-center gap-1.5 mb-1">
+          <User className="w-4 h-4 text-[#294936]" />
+          <span className="text-[11px] font-bold uppercase tracking-widest text-[#294936] font-sans">
+            Profile & Settings
+          </span>
+        </div>
+        <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#2C241F]">
+          Personal Account & Preferences
+        </h1>
+        <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-0.5">
+          Manage your chef profile, regional taste, dietary goals, and cookbook settings
+        </p>
+      </div>
+
       {/* Toast Notification */}
       {isSavedBanner && (
         <div className="mb-4 p-3 rounded-2xl bg-[#294936] text-[#FFFDF7] text-xs sm:text-sm font-sans font-medium flex items-center justify-between shadow-sm animate-fadeIn">

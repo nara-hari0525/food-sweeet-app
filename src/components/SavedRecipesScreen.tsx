@@ -29,14 +29,17 @@ export const SavedRecipesScreen: React.FC<SavedRecipesScreenProps> = ({
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-6 pb-28">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <span className="text-[11px] font-bold uppercase tracking-widest text-[#B85C38] font-sans block mb-0.5">
-            Personal Collection
-          </span>
+          <div className="flex items-center gap-1.5 mb-1">
+            <Bookmark className="w-4 h-4 text-[#B85C38]" />
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#B85C38] font-sans">
+              Saved Recipes
+            </span>
+          </div>
           <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#2C241F]">
-            Saved Cookbook Recipes
+            Your Personal Cookbook
           </h1>
-          <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-1">
-            Your private hand-curated culinary library ({savedRecipes.length} dishes)
+          <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-0.5">
+            Your private hand-curated culinary library ({savedRecipes.length} {savedRecipes.length === 1 ? 'dish' : 'dishes'})
           </p>
         </div>
       </div>

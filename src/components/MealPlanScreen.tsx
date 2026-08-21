@@ -72,13 +72,16 @@ export const MealPlanScreen: React.FC<MealPlanScreenProps> = ({
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
         <div>
-          <span className="text-[11px] font-bold uppercase tracking-widest text-[#B85C38] font-sans block mb-0.5">
-            Weekly Culinary Schedule
-          </span>
+          <div className="flex items-center gap-1.5 mb-1">
+            <CalendarIcon className="w-4 h-4 text-[#B85C38]" />
+            <span className="text-[11px] font-bold uppercase tracking-widest text-[#B85C38] font-sans">
+              Meal Planner
+            </span>
+          </div>
           <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#2C241F]">
             Weekly Meal Planner
           </h1>
-          <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-1">
+          <p className="text-xs sm:text-sm text-[#766B63] font-serif mt-0.5">
             Organize breakfast, lunch, and dinner courses across the week with balanced nutrition
           </p>
         </div>

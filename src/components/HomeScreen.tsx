@@ -114,12 +114,12 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
 
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 py-5 pb-24">
-      {/* 1. Personalized Greeting & Subtitle */}
+      {/* 1. Interface Header & Greeting */}
       <div className="mb-5">
-        <div className="flex items-center gap-2 mb-1">
+        <div className="flex items-center gap-1.5 mb-1">
           <ChefHat className="w-4 h-4 text-[#B85C38]" />
           <span className="text-[11px] font-sans font-bold uppercase tracking-wider text-[#B85C38]">
-            Cooksweet Kitchen Dashboard
+            Home Dashboard
           </span>
         </div>
         <h1 className="font-serif font-bold text-2xl sm:text-3xl text-[#2C241F] tracking-tight">
