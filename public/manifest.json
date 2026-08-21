@@ -1,0 +1,17 @@
+{
+  "name": "Cooksweet",
+  "short_name": "Cooksweet",
+  "description": "Smart recipe discovery, meal planning, and culinary assistant",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F3E8",
+  "theme_color": "#294936",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

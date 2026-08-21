@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D523C"/>
+      <stop offset="100%" stop-color="#1B3526"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+  
+  <!-- Minimalist Chef Hat & Spoon Icon -->
+  <g fill="#FFFDF7" transform="translate(106, 106)">
+    <!-- Chef Hat Top Pleats -->
+    <path d="M150 40 C120 15 80 20 60 50 C30 55 10 85 20 120 C10 150 35 180 70 185 C70 205 85 220 105 220 L195 220 C215 220 230 205 230 185 C265 180 290 150 280 120 C290 85 270 55 240 50 C220 20 180 15 150 40 Z" />
+    
+    <!-- Hat Base Band -->
+    <rect x="75" y="200" width="150" height="35" rx="8" fill="#FFFDF7" />
+    
+    <!-- Accent Line -->
+    <rect x="95" y="212" width="110" height="8" rx="4" fill="#B85C38" />
+  </g>
+</svg>
